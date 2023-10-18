@@ -1,5 +1,4 @@
 // SPDX-License-Identifier: UNLICENCED
-// edexa masterchannel has store
 
 pragma solidity ^0.8.0;
 

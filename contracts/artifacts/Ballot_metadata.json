@@ -207,7 +207,7 @@
 		"compilationTarget": {
 			"contracts/3_Ballot.sol": "Ballot"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"

@@ -21,7 +21,7 @@
 		"compilationTarget": {
 			".deps/npm/@openzeppelin/contracts@4.5.0/utils/Context.sol": "Context"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"

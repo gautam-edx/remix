@@ -181,7 +181,7 @@
 		"compilationTarget": {
 			"contracts/MasterChannelLedger.sol": "MasterChannelLedger"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"

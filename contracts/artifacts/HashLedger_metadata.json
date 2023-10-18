@@ -181,7 +181,7 @@
 		"compilationTarget": {
 			"contracts/hashLedger.sol": "HashLedger"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -210,11 +210,11 @@
 			]
 		},
 		"contracts/hashLedger.sol": {
-			"keccak256": "0x4ddb5f641346521cdb3a887318312df3d609761cb4eb3941ac3ddf2b6472dfd4",
+			"keccak256": "0x4151f894b473d89630a8e4a51f4994c2d61fd4932cc1249ca81de5c898d9e0f0",
 			"license": "UNLICENCED",
 			"urls": [
-				"bzz-raw://d31b5be4b2ea790fb28314939fb7b2c9e3ad003bbea8d23a36f2b17eaae7d132",
-				"dweb:/ipfs/QmYEaTH13go5D4RqDusaCmsYMVx3T5KtryeoFHHFZUeWgG"
+				"bzz-raw://05be3e6b540fef0d348d29e7d11c3a86c1e55faf3c0fa39262a7894cb03d7c39",
+				"dweb:/ipfs/QmRygjCKBT8aA2jqLDSTNF5GLCKrv4BCmkfS9fUNqtEGCT"
 			]
 		}
 	},
