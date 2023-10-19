@@ -336,7 +336,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ENS5.sol": "EdexaNamingService"
+			"contracts/ENS6.sol": "EdexaNamingService"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -350,12 +350,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ENS5.sol": {
-			"keccak256": "0xe05bcb53b68427541817d8ce6e2825e540dea0b2111e4835cf1395d7b018186d",
+		"contracts/ENS6.sol": {
+			"keccak256": "0x4d2a40d0e25aa7e4341a267344c365253914fdd9cf162aefc03ac0b696ddf89d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://81158c14cc87e7a996f2de3b17b1bb87448e2a15cbca78340ef7a2f9857ef723",
-				"dweb:/ipfs/Qmd7QueMLctmv7LAmvw3MYaiSNPzwgRWhAf8Z6a4z8Gz6w"
+				"bzz-raw://42cb1f43afe6bf3f2dd3019ea907345562efd5bed0c7b807827f97ab1e5b1fd8",
+				"dweb:/ipfs/QmRUL97BggPkxSTS8tnG2gn3KGribvnZeyrJYrau3eRtjw"
 			]
 		}
 	},
