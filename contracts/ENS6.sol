@@ -7,9 +7,9 @@ contract EdexaNamingService {
         address resolver;
         uint256 expiration;
     }
-
-    mapping(string => uint256) public suffixPrices;
+    address public currentImplementation;
     address public owner;
+    mapping(string => uint256) public suffixPrices;
     mapping(string => Domain) domains;
     mapping(address => string[]) addressToDomains;
 
@@ -147,7 +147,7 @@ contract EdexaNamingService {
         }
     }
 
-    function transferOwnership(string calldata domainName, address newOwner)
+    function transferDomainOwnership(string calldata domainName, address newOwner)
         external
         onlyDomainOwner(domainName)
     {
@@ -254,5 +254,37 @@ contract EdexaNamingService {
         return string(result);
     }
 
+    function withdrawCurrency(uint256 amt) public onlyOwner {
+        payable(msg.sender).transfer(amt);
+    }
+
+    function withdrawToken(address token, uint256 amt) public onlyOwner {
+        IERC20(token).transfer(msg.sender, amt);
+    }
+
 }
            
+interface IERC20 {
+    function totalSupply() external view returns (uint256);
+    function balanceOf(address account) external view returns (uint256);
+    function transfer(
+        address recipient,
+        uint256 amount
+    ) external returns (bool);
+    function allowance(
+        address owner,
+        address spender
+    ) external view returns (uint256);
+    function approve(address spender, uint256 amount) external returns (bool);
+    function transferFrom(
+        address sender,
+        address recipient,
+        uint256 amount
+    ) external returns (bool);
+    event Transfer(address indexed from, address indexed to, uint256 value);
+    event Approval(
+        address indexed owner,
+        address indexed spender,
+        uint256 value
+    );
+}

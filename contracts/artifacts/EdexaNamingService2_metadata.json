@@ -380,7 +380,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ENS6.sol": "EdexaNamingService"
+			"contracts/proxyTest.sol": "EdexaNamingService2"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -394,12 +394,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ENS6.sol": {
-			"keccak256": "0xdacea9357232c31c6397efe9bc5098092b35513bce8226d420e7ef5a5e0efbcf",
+		"contracts/proxyTest.sol": {
+			"keccak256": "0xab43caff868c89ace4a49d9669d0f717f6392206453c58f758d3435e29313794",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://99370144689eb1cc3be81946615f6650e68af75fa2456f70660697d0f8018ab4",
-				"dweb:/ipfs/QmTt2a5BuTrEGP9JwerdgyCyiiBHKC7HkMFn5EavxVfn7S"
+				"bzz-raw://ef8ecdb1430cba2f0c1015a60da7d6fff10cffe237a0319bf1f2f9df432f604e",
+				"dweb:/ipfs/QmVBeVkQPEaQUEZg5iPLYV67K6yVAyALf6QGbyTErpLDGA"
 			]
 		}
 	},
