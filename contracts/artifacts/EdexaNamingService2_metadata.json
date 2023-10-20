@@ -382,7 +382,7 @@
 		"compilationTarget": {
 			"contracts/proxyTest.sol": "EdexaNamingService2"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"

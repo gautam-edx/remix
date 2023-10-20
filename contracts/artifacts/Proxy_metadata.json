@@ -79,7 +79,7 @@
 		"compilationTarget": {
 			"contracts/Proxy.sol": "Proxy"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"

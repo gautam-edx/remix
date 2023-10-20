@@ -20,7 +20,7 @@
 		"compilationTarget": {
 			"contracts/Presale.sol": "SafeERC20"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"

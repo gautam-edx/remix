@@ -20,7 +20,7 @@
 		"compilationTarget": {
 			"contracts/Presale.sol": "Address"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"

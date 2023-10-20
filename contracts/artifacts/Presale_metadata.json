@@ -712,7 +712,7 @@
 		"compilationTarget": {
 			"contracts/Presale.sol": "Presale"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"

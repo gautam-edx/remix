@@ -73,7 +73,7 @@
 		"compilationTarget": {
 			"contracts/Presale.sol": "Ownable"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"

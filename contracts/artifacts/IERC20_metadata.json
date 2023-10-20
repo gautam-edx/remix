@@ -204,7 +204,7 @@
 		"compilationTarget": {
 			"contracts/ENS6.sol": "IERC20"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"

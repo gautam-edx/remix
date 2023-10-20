@@ -382,7 +382,7 @@
 		"compilationTarget": {
 			"contracts/ENS6.sol": "EdexaNamingService"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
